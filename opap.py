@@ -26,4 +26,4 @@ sort_numList = sorted(numList.items(), key=lambda x: x[1], reverse=True)
 for i in sort_numList:
 	print(f"{i[0]} showed up {i[1]} times")
 
-
+input("Press enter to exit ;)")
