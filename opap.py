@@ -1,4 +1,3 @@
-from click import prompt
 import requests
 import json
 from collections import Counter
