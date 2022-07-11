@@ -13,7 +13,7 @@ for x in range(1,81):
 
 
 
-for i in range(1,num):
+for i in range(0,num):
     a=requests.get(f"https://api.opap.gr/draws/v3.0/1100/{draw_id}")       
     b=json.loads(a.content)
     for w in range(0,20):
